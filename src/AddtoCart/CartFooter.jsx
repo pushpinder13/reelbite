@@ -29,6 +29,7 @@ const[paidFor,setPaidFor] = useState(false);
         setPaidFor(true);
     }
     if(paidFor){
+        navigate('/')
         alert("Order Placed!! Thank You for visiting :) ");
         setTimeout(()=>{
             window.location.reload();
